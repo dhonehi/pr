@@ -1,5 +1,26 @@
 @import "variables";
 
-body {
-  background-color: $yellow-color;
+input {
+  outline: none;
+  border-radius: 10px;
+  background-color: #dbe9c9;
+  color: #4f4d4d;
+  border: none;
+  height: 25px;
+  margin: 0 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  cursor: text;
+  width: 180px;
+}
+
+button {
+  border-radius: 10px;
+  background-color:$border-color;
+  color: #e7eed4;
+  border: none;
+  height: 25px;
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 0 10px;
 }
